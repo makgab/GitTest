@@ -9,6 +9,10 @@ Configure git author:
 git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
 
+Proxy:
+git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+git config --global https.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+
 Create local repo:
 git init
 
